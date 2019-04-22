@@ -1,0 +1,2444 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<title>HomePage</title>
+<style id="applicationStylesheet" type="text/css">
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	:root {
+		--web-view-ids: Home_Pages;
+	}
+	#Home_Pages * {
+		margin: 0;
+		padding: 0;
+	}
+	#Home_Pages {
+		position: absolute;
+		box-sizing: border-box;
+		background: #E5E5E5;
+		width: 1920px;
+		height: 4350px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		margin: 0;
+		padding: 0;
+		opacity: 1;
+		--web-view-name: Home Pages;
+		--web-view-id: Home_Pages;
+		--web-scale-to-fit: true;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	}
+	#Noise_Product_interaction {
+		opacity: 0.053;
+		fill: url(#Noise_Product_interaction_A2_Rectangle_2_pattern);
+	}
+	.Noise_Product_interaction {
+		position: absolute;
+		overflow: visible;
+		width: 1927px;
+		height: 1110px;
+		left: 0px;
+		top: -2px;
+	}
+	#Candy_Blog_page {
+		opacity: 1;
+		position: absolute;
+		width: 1920px;
+		height: 1191px;
+		left: 0px;
+		top: 2107px;
+		overflow: visible;
+	}
+	#Main_Page3 {
+		opacity: 1;
+		fill: rgba(35,47,62,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Main_Page3 {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1112px;
+		left: 0px;
+		top: 57px;
+	}
+	#Namagashi {
+		opacity: 1;
+		filter: drop-shadow(30px 3px 4px rgba(0, 0, 0, 0.161));
+		fill: url(#Namagashi_A2_Rectangle_5_pattern);
+	}
+	.Namagashi {
+		position: absolute;
+		overflow: visible;
+		width: 1227px;
+		height: 1203px;
+		left: 729px;
+		top: 0px;
+	}
+	#Japanese_confectionary {
+		opacity: 1;
+		filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 107px;
+		top: 625px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 744px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 65px;
+		color: rgba(245,245,245,1);
+	}
+	#Art_of {
+		opacity: 1;
+		filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 352px;
+		top: 486px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 173px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 65px;
+		color: rgba(245,245,245,1);
+	}
+	#_ {
+		opacity: 1;
+		filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 1707px;
+		top: 369px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(245,245,245,1);
+	}
+	#__A2_Text_4 {
+		opacity: 1;
+		filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 1707px;
+		top: 563px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(245,245,245,1);
+	}
+	#__A2_Text_5 {
+		opacity: 1;
+		filter: drop-shadow(15px 5px 10px rgba(0, 0, 0, 0.161));
+		position: absolute;
+		left: 1707px;
+		top: 757px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 101px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 100px;
+		color: rgba(245,245,245,1);
+	}
+	#btn_bg_Blog {
+		opacity: 0.166;
+		filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 1));
+		fill: rgba(207,216,220,1);
+		stroke: rgb(0, 0, 0);
+		stroke-width: 4px;
+		stroke-linejoin: round;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.btn_bg_Blog {
+		position: absolute;
+		overflow: visible;
+		width: 278.913px;
+		height: 88.087px;
+		left: 310px;
+		top: 764px;
+	}
+	#Blog {
+		opacity: 1;
+		position: absolute;
+		left: 393px;
+		top: 774px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 91px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Bookerly;
+		font-style: italic;
+		font-weight: normal;
+		font-size: 45px;
+		color: rgba(255,255,255,1);
+	}
+	#cart {
+		opacity: 1;
+		fill: rgba(255,255,255,1);
+	}
+	.cart {
+		transform: matrix(1,0,0,1,0,0);
+		overflow: visible;
+		position: absolute;
+		top: 8px;
+		left: 1676px;
+		width: 55px;
+		height: 42.292px;
+	}
+	#Product_Page_MainTop {
+		opacity: 1;
+		fill: url(#Product_Page_MainTop_A2_Rectangle_8_pattern);
+		stroke: rgba(112, 112, 112, 0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Product_Page_MainTop {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1087px;
+		left: 0px;
+		top: 0px;
+	}
+	#tableFlower {
+		opacity: 1;
+		filter: drop-shadow(20px 20px 6px rgba(0, 0, 0, 0.161));
+		fill: url(#tableFlower_A2_Rectangle_10_pattern);
+	}
+	.tableFlower {
+		position: absolute;
+		overflow: visible;
+		width: 1113px;
+		height: 1113px;
+		left: 0px;
+		top: 0px;
+	}
+	#Deals {
+		opacity: 0.901;
+		filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(233,204,174,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: bevel;
+		stroke-linecap: square;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Deals {
+		position: absolute;
+		overflow: visible;
+		width: 592px;
+		height: 96px;
+		left: 388px;
+		top: 85px;
+	}
+	#Deals_A2_Rectangle_12 {
+		opacity: 0.661;
+		filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.161));
+		fill: rgba(96,127,156,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: bevel;
+		stroke-linecap: round;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Deals_A2_Rectangle_12 {
+		position: absolute;
+		overflow: visible;
+		width: 718px;
+		height: 96px;
+		left: 1033px;
+		top: 85px;
+	}
+	#Deals____Daily_Gifts {
+		opacity: 0.833;
+		position: absolute;
+		left: 484px;
+		top: 94px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 342px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,1);
+	}
+	#Free_shipping_in_orders_of__25 {
+		opacity: 0.833;
+		position: absolute;
+		left: 1119px;
+		top: 94px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 558px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 40px;
+		color: rgba(0,0,0,1);
+	}
+	#___ {
+		opacity: 1;
+		position: absolute;
+		left: 44px;
+		top: 15.357px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 166px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 55px;
+		color: rgba(255,255,255,1);
+	}
+	#sakura_mochi {
+		opacity: 1;
+		filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.161));
+		fill: url(#sakura_mochi_A2_Rectangle_14_pattern);
+	}
+	.sakura_mochi {
+		position: absolute;
+		overflow: visible;
+		width: 1256px;
+		height: 1256px;
+		left: 348px;
+		top: -37px;
+	}
+	#dango {
+		opacity: 1;
+		filter: drop-shadow(5px 5px 6px rgba(0, 0, 0, 0.161));
+		fill: url(#dango_A2_Rectangle_16_pattern);
+	}
+	.dango {
+		position: absolute;
+		overflow: visible;
+		width: 446.533px;
+		height: 531.982px;
+		left: 1435.734px;
+		top: 568.009px;
+		transform: rotate(5deg);
+		transform-origin: left;
+	}
+	#chimaki {
+		opacity: 1;
+		filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.161));
+		fill: url(#chimaki_A2_Rectangle_18_pattern);
+	}
+	.chimaki {
+		position: absolute;
+		overflow: visible;
+		width: 794.931px;
+		height: 726.13px;
+		left: 1001.554px;
+		top: 354.083px;
+		transform: rotate(11deg);
+		transform-origin: left;
+	}
+	#Monaka {
+		opacity: 1;
+		filter: drop-shadow(15px 20px 6px rgba(0, 0, 0, 0.161));
+		fill: url(#Monaka_A2_Rectangle_20_pattern);
+	}
+	.Monaka {
+		position: absolute;
+		overflow: visible;
+		width: 420.368px;
+		height: 377.129px;
+		left: 1436.09px;
+		top: 219.686px;
+		transform: rotate(-11deg);
+		transform-origin: left;
+	}
+	#nerikiri {
+		opacity: 1;
+		filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.161));
+		fill: url(#nerikiri_A2_Rectangle_22_pattern);
+	}
+	.nerikiri {
+		position: absolute;
+		overflow: visible;
+		width: 650px;
+		height: 650px;
+		left: 939px;
+		top: 123px;
+	}
+	#mizu_yokan {
+		opacity: 1;
+		filter: drop-shadow(20px 20px 20px rgba(0, 0, 0, 0.161));
+		fill: url(#mizu_yokan_A2_Rectangle_24_pattern);
+	}
+	.mizu_yokan {
+		position: absolute;
+		overflow: visible;
+		width: 729px;
+		height: 729px;
+		left: 544px;
+		top: 94px;
+	}
+	#Top_Main_Menu {
+		opacity: 0.487;
+		fill: rgba(102,102,102,1);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Top_Main_Menu {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 84.714px;
+		left: 0px;
+		top: 0px;
+	}
+	#Main {
+		opacity: 1;
+		position: absolute;
+		left: 484px;
+		top: 21.618px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 80px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,243,1);
+	}
+	#Products {
+		opacity: 1;
+		position: absolute;
+		left: 677px;
+		top: 21.618px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 148px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,243,1);
+	}
+	#Learn {
+		opacity: 1;
+		position: absolute;
+		left: 966px;
+		top: 21.618px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 93px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,243,1);
+	}
+	#About {
+		opacity: 1;
+		position: absolute;
+		left: 1178px;
+		top: 21.618px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 98px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,243,1);
+	}
+	#Contact {
+		opacity: 1;
+		position: absolute;
+		left: 1397px;
+		top: 21.618px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 129px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 35px;
+		color: rgba(255,255,243,1);
+	}
+	#profile {
+		opacity: 1;
+		fill: url(#profile_A2_Rectangle_27_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.profile {
+		position: absolute;
+		overflow: visible;
+		width: 45px;
+		height: 42.954px;
+		left: 1722.41px;
+		top: 7px;
+	}
+	#white_heart {
+		opacity: 1;
+		fill: url(#white_heart_A2_Rectangle_29_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.white_heart {
+		position: absolute;
+		overflow: visible;
+		width: 49px;
+		height: 39.954px;
+		left: 1774.82px;
+		top: 9px;
+	}
+	#Shopping_Cart {
+		opacity: 1;
+		fill: url(#Shopping_Cart_A2_Rectangle_31_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.Shopping_Cart {
+		position: absolute;
+		overflow: visible;
+		width: 52px;
+		height: 35.954px;
+		left: 1835.23px;
+		top: 10px;
+	}
+	#search {
+		opacity: 1;
+		fill: url(#search_A2_Rectangle_33_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.search {
+		position: absolute;
+		overflow: visible;
+		width: 50px;
+		height: 36.954px;
+		left: 1661px;
+		top: 10px;
+	}
+	#voicepage {
+		opacity: 1;
+		fill: url(#voicepage_A2_Rectangle_35_pattern);
+		stroke: rgba(112, 112, 112, 0);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.voicepage {
+		position: absolute;
+		overflow: visible;
+		width: 1927px;
+		height: 1095px;
+		left: -7px;
+		top: 1080px;
+	}
+	#bottlee_VoicePage {
+		opacity: 1;
+		filter: drop-shadow(5px 3px 6px rgba(0, 0, 0, 0.161));
+		fill: url(#bottlee_VoicePage_A2_Rectangle_37_pattern);
+	}
+	.bottlee_VoicePage {
+		position: absolute;
+		overflow: visible;
+		width: 978px;
+		height: 978px;
+		left: 90px;
+		top: 1305px;
+	}
+	#_Hey_Google__Four_Seasons_Stor {
+		opacity: 1;
+		position: absolute;
+		left: 803px;
+		top: 1499px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 1005px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 65px;
+		color: rgba(0,0,0,1);
+	}
+	#Circular__Normal {
+		opacity: 1;
+		fill: url(#Circular__Normal_A2_Rectangle_39_pattern);
+	}
+	.Circular__Normal {
+		position: absolute;
+		overflow: visible;
+		width: 369px;
+		height: 151px;
+		left: 1121px;
+		top: 1677px;
+	}
+	#Learn_more {
+		opacity: 1;
+		position: absolute;
+		left: 1206px;
+		top: 1720px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 199px;
+		white-space: nowrap;
+		text-align: center;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 40px;
+		color: rgba(0,0,0,1);
+	}
+	#N_Blog {
+		opacity: 0.053;
+		fill: url(#N_Blog_A2_Rectangle_41_pattern);
+	}
+	.N_Blog {
+		position: absolute;
+		overflow: visible;
+		width: 1927px;
+		height: 1119px;
+		left: 0px;
+		top: 2175px;
+	}
+	#about_background {
+		opacity: 1;
+		fill: url(#about_background_A2_Rectangle_43_pattern);
+		stroke: rgb(112, 112, 112);
+		stroke-width: 1px;
+		stroke-linejoin: miter;
+		stroke-linecap: butt;
+		stroke-miterlimit: 4;
+		shape-rendering: auto;
+	}
+	.about_background {
+		position: absolute;
+		overflow: visible;
+		width: 1920px;
+		height: 1075px;
+		left: 0px;
+		top: 3275px;
+	}
+	#About_page {
+		opacity: 1;
+		position: absolute;
+		width: 1338px;
+		height: 1032px;
+		left: 545px;
+		top: 3353px;
+		overflow: visible;
+	}
+	#__A2_Text_17 {
+		opacity: 1;
+		position: absolute;
+		left: 355px;
+		top: 194px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 120px;
+		color: rgba(0,0,0,1);
+	}
+	#__A2_Text_18 {
+		opacity: 1;
+		position: absolute;
+		left: 355px;
+		top: 388px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 120px;
+		color: rgba(0,0,0,1);
+	}
+	#__A2_Text_19 {
+		opacity: 1;
+		position: absolute;
+		left: 355px;
+		top: 0px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 121px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: lighter;
+		font-size: 120px;
+		color: rgba(0,0,0,1);
+	}
+	#flower {
+		opacity: 1;
+		fill: url(#flower_A2_Rectangle_45_pattern);
+	}
+	.flower {
+		position: absolute;
+		overflow: visible;
+		width: 830px;
+		height: 572px;
+		left: 0px;
+		top: 460px;
+	}
+	#Circular__Normal_A2_Rectangle_46 {
+		opacity: 1;
+		fill: url(#Circular__Normal_A2_Rectangle_47_pattern);
+	}
+	.Circular__Normal_A2_Rectangle_46 {
+		position: absolute;
+		overflow: visible;
+		width: 125px;
+		height: 51px;
+		left: 1213px;
+		top: 926px;
+	}
+	#__ {
+		opacity: 1;
+		position: absolute;
+		left: 1251px;
+		top: 928px;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+		width: 49px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Helvetica Neue;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 30px;
+		color: rgba(0,0,0,1);
+	}
+</style>
+</head>
+<body>
+<div id="Home_Pages">
+	<svg class="Noise_Product_interaction">
+		<pattern elementId="Noise_Product_interaction_A2_Rectangle_2" id="Noise_Product_interaction_A2_Rectangle_2_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Noise_Product_interaction_A2_Rectangle_2_pattern.png" xlink:href="Noise_Product_interaction_A2_Rectangle_2_pattern.png"></image>
+		</pattern>
+		<rect id="Noise_Product_interaction" rx="0" ry="0" x="0" y="0" width="1927" height="1110">
+		</rect>
+	</svg>
+	<div id="Candy_Blog_page">
+		<svg class="Main_Page3">
+			<rect id="Main_Page3" rx="0" ry="0" x="0" y="0" width="1920" height="1112">
+			</rect>
+		</svg>
+		<svg class="Namagashi">
+			<pattern elementId="Namagashi_A2_Rectangle_5" id="Namagashi_A2_Rectangle_5_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="Namagashi_A2_Rectangle_5_pattern.png" xlink:href="Namagashi_A2_Rectangle_5_pattern.png"></image>
+			</pattern>
+			<rect id="Namagashi" rx="0" ry="0" x="0" y="0" width="1191" height="1191">
+			</rect>
+		</svg>
+		<div id="Japanese_confectionary">
+			<span>Japanese confectionary</span>
+		</div>
+		<div id="Art_of">
+			<span>Art of</span>
+		</div>
+		<div id="_">
+			<span>生</span>
+		</div>
+		<div id="__A2_Text_4">
+			<span>菓</span>
+		</div>
+		<div id="__A2_Text_5">
+			<span>子</span>
+		</div>
+		<svg class="btn_bg_Blog">
+			<rect id="btn_bg_Blog" rx="32.54345703125" ry="32.54345703125" x="0" y="0" width="255.913" height="65.087">
+			</rect>
+		</svg>
+		<div id="Blog">
+			<span>Blog</span>
+		</div>
+	</div>
+	<svg class="cart" viewBox="0 11 55 42.292">
+		<path id="cart" d="M 54.88043594360352 20.5347900390625 L 48.48369216918945 40.24782562255859 C 48.00542831420898 41.6517219543457 46.75 42.58765029907227 45.25543212890625 42.58765029907227 L 20.56521797180176 42.58765029907227 C 19.13043403625488 42.58765029907227 17.75543785095215 41.71021270751953 17.27717208862305 40.42330932617188 L 7.831521034240723 15.67965221405029 L 2.39130425453186 15.67965221405029 C 1.07608687877655 15.67965221405029 0 14.62672996520996 0 13.33982563018799 C 0 12.0529203414917 1.07608687877655 11 2.39130425453186 11 L 9.505434036254883 11 C 10.52173805236816 11 11.41847801208496 11.64345264434814 11.77717208862305 12.57938194274902 L 21.52173805236816 37.90800094604492 L 44.23913192749023 37.90800094604492 L 49.32065200805664 22.11417198181152 L 21.16304397583008 22.11417198181152 C 19.84782600402832 22.11417198181152 18.77174186706543 21.06125068664551 18.77174186706543 19.77434730529785 C 18.77174186706543 18.48744201660156 19.84782600402832 17.43452262878418 21.16304397583008 17.43452262878418 L 52.60869598388672 17.43452262878418 C 53.38587188720703 17.43452262878418 54.1032600402832 17.84399032592773 54.52173614501953 18.42894554138184 C 55 19.01390266418457 55.11956405639648 19.83284187316895 54.88043594360352 20.5347900390625 Z M 21.7608699798584 45.68792343139648 C 20.74456405639648 45.68792343139648 19.7282600402832 46.09738922119141 19.0108699798584 46.79933929443359 C 18.29347801208496 47.50128555297852 17.87499809265137 48.4957160949707 17.87499809265137 49.49013900756836 C 17.87499809265137 50.48456192016602 18.29347801208496 51.4789924621582 19.0108699798584 52.18093872070312 C 19.7282600402832 52.88288116455078 20.74456405639648 53.29235458374023 21.7608699798584 53.29235458374023 C 22.77717399597168 53.29235458374023 23.79347801208496 52.88288879394531 24.51086807250977 52.18093872070312 C 25.2282600402832 51.4789924621582 25.6467399597168 50.48456192016602 25.6467399597168 49.49013900756836 C 25.6467399597168 48.4957160949707 25.2282600402832 47.50128555297852 24.51086807250977 46.79933929443359 C 23.79347610473633 46.09738922119141 22.77717018127441 45.68792343139648 21.7608699798584 45.68792343139648 Z M 43.22282791137695 45.68792343139648 C 42.20652389526367 45.68792343139648 41.19021606445312 46.09738922119141 40.47282791137695 46.79933929443359 C 39.75543594360352 47.50128936767578 39.33695983886719 48.4957160949707 39.33695983886719 49.49013900756836 C 39.33695983886719 50.48456192016602 39.75543594360352 51.4789924621582 40.47282791137695 52.18093872070312 C 41.19021606445312 52.88288116455078 42.20652389526367 53.29235458374023 43.22282791137695 53.29235458374023 C 44.23913192749023 53.29235458374023 45.25543594360352 52.88288879394531 45.97282409667969 52.18093872070312 C 46.69021606445312 51.4789924621582 47.10869979858398 50.48456192016602 47.10869979858398 49.49013900756836 C 47.10869979858398 48.4957160949707 46.69021987915039 47.50128555297852 45.97282409667969 46.79933929443359 C 45.25543212890625 46.09739303588867 44.23913192749023 45.68792343139648 43.22282791137695 45.68792343139648 Z">
+		</path>
+	</svg>
+	<svg class="Product_Page_MainTop">
+		<pattern elementId="Product_Page_MainTop_A2_Rectangle_8" id="Product_Page_MainTop_A2_Rectangle_8_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Product_Page_MainTop_A2_Rectangle_8_pattern.png" xlink:href="Product_Page_MainTop_A2_Rectangle_8_pattern.png"></image>
+		</pattern>
+		<rect id="Product_Page_MainTop" rx="0" ry="0" x="0" y="0" width="1920" height="1087">
+		</rect>
+	</svg>
+	<svg class="tableFlower">
+		<pattern elementId="tableFlower_A2_Rectangle_10" id="tableFlower_A2_Rectangle_10_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="tableFlower_A2_Rectangle_10_pattern.png" xlink:href="tableFlower_A2_Rectangle_10_pattern.png"></image>
+		</pattern>
+		<rect id="tableFlower" rx="0" ry="0" x="0" y="0" width="1084" height="1084">
+		</rect>
+	</svg>
+	<svg class="Deals">
+		<rect id="Deals" rx="5" ry="5" x="0" y="0" width="572" height="76">
+		</rect>
+	</svg>
+	<svg class="Deals_A2_Rectangle_12">
+		<rect id="Deals_A2_Rectangle_12" rx="5" ry="5" x="0" y="0" width="698" height="76">
+		</rect>
+	</svg>
+	<div id="Deals____Daily_Gifts">
+		<span>Deals &  Daily Gifts</span>
+	</div>
+	<div id="Free_shipping_in_orders_of__25">
+		<span>Free shipping in orders of $25+</span>
+	</div>
+	<div id="___">
+		<span>四季屋</span>
+	</div>
+	<svg class="sakura_mochi">
+		<pattern elementId="sakura_mochi_A2_Rectangle_14" id="sakura_mochi_A2_Rectangle_14_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="sakura_mochi_A2_Rectangle_14_pattern.png" xlink:href="sakura_mochi_A2_Rectangle_14_pattern.png"></image>
+		</pattern>
+		<rect id="sakura_mochi" rx="0" ry="0" x="0" y="0" width="1196" height="1196">
+		</rect>
+	</svg>
+	<svg class="dango">
+		<pattern elementId="dango_A2_Rectangle_16" id="dango_A2_Rectangle_16_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="dango_A2_Rectangle_16_pattern.png" xlink:href="dango_A2_Rectangle_16_pattern.png"></image>
+		</pattern>
+		<rect id="dango" rx="133" ry="133" x="0" y="0" width="388" height="482">
+		</rect>
+	</svg>
+	<svg class="chimaki">
+		<pattern elementId="chimaki_A2_Rectangle_18" id="chimaki_A2_Rectangle_18_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="chimaki_A2_Rectangle_18_pattern.png" xlink:href="chimaki_A2_Rectangle_18_pattern.png"></image>
+		</pattern>
+		<rect id="chimaki" rx="0" ry="0" x="0" y="0" width="641" height="554">
+		</rect>
+	</svg>
+	<svg class="Monaka">
+		<pattern elementId="Monaka_A2_Rectangle_20" id="Monaka_A2_Rectangle_20_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Monaka_A2_Rectangle_20_pattern.png" xlink:href="Monaka_A2_Rectangle_20_pattern.png"></image>
+		</pattern>
+		<rect id="Monaka" rx="0" ry="0" x="0" y="0" width="348" height="287">
+		</rect>
+	</svg>
+	<svg class="nerikiri">
+		<pattern elementId="nerikiri_A2_Rectangle_22" id="nerikiri_A2_Rectangle_22_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="nerikiri_A2_Rectangle_22_pattern.png" xlink:href="nerikiri_A2_Rectangle_22_pattern.png"></image>
+		</pattern>
+		<rect id="nerikiri" rx="0" ry="0" x="0" y="0" width="590" height="590">
+		</rect>
+	</svg>
+	<svg class="mizu_yokan">
+		<pattern elementId="mizu_yokan_A2_Rectangle_24" id="mizu_yokan_A2_Rectangle_24_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="mizu_yokan_A2_Rectangle_24_pattern.png" xlink:href="mizu_yokan_A2_Rectangle_24_pattern.png"></image>
+		</pattern>
+		<rect id="mizu_yokan" rx="0" ry="0" x="0" y="0" width="669" height="669">
+		</rect>
+	</svg>
+	<svg class="Top_Main_Menu">
+		<rect id="Top_Main_Menu" rx="0" ry="0" x="0" y="0" width="1920" height="84.714">
+		</rect>
+	</svg>
+	<div id="Main">
+		<span>Main</span>
+	</div>
+	<div id="Products">
+		<span>Products</span>
+	</div>
+	<div id="Learn">
+		<span>Learn</span>
+	</div>
+	<div id="About">
+		<span>About</span>
+	</div>
+	<div id="Contact">
+		<span>Contact</span>
+	</div>
+	<svg class="profile">
+		<pattern elementId="profile_A2_Rectangle_27" id="profile_A2_Rectangle_27_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="profile_A2_Rectangle_27_pattern.png" xlink:href="profile_A2_Rectangle_27_pattern.png"></image>
+		</pattern>
+		<rect id="profile" rx="0" ry="0" x="0" y="0" width="45" height="42.954">
+		</rect>
+	</svg>
+	<svg class="white_heart">
+		<pattern elementId="white_heart_A2_Rectangle_29" id="white_heart_A2_Rectangle_29_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="white_heart_A2_Rectangle_29_pattern.png" xlink:href="white_heart_A2_Rectangle_29_pattern.png"></image>
+		</pattern>
+		<rect id="white_heart" rx="0" ry="0" x="0" y="0" width="49" height="39.954">
+		</rect>
+	</svg>
+	<svg class="Shopping_Cart">
+		<pattern elementId="Shopping_Cart_A2_Rectangle_31" id="Shopping_Cart_A2_Rectangle_31_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Shopping_Cart_A2_Rectangle_31_pattern.png" xlink:href="Shopping_Cart_A2_Rectangle_31_pattern.png"></image>
+		</pattern>
+		<rect id="Shopping_Cart" rx="0" ry="0" x="0" y="0" width="52" height="35.954">
+		</rect>
+	</svg>
+	<svg class="search">
+		<pattern elementId="search_A2_Rectangle_33" id="search_A2_Rectangle_33_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="search_A2_Rectangle_33_pattern.png" xlink:href="search_A2_Rectangle_33_pattern.png"></image>
+		</pattern>
+		<rect id="search" rx="0" ry="0" x="0" y="0" width="50" height="36.954">
+		</rect>
+	</svg>
+	<svg class="voicepage">
+		<pattern elementId="voicepage_A2_Rectangle_35" id="voicepage_A2_Rectangle_35_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="voicepage_A2_Rectangle_35_pattern.png" xlink:href="voicepage_A2_Rectangle_35_pattern.png"></image>
+		</pattern>
+		<rect id="voicepage" rx="0" ry="0" x="0" y="0" width="1927" height="1095">
+		</rect>
+	</svg>
+	<svg class="bottlee_VoicePage">
+		<pattern elementId="bottlee_VoicePage_A2_Rectangle_37" id="bottlee_VoicePage_A2_Rectangle_37_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="bottlee_VoicePage_A2_Rectangle_37_pattern.png" xlink:href="bottlee_VoicePage_A2_Rectangle_37_pattern.png"></image>
+		</pattern>
+		<rect id="bottlee_VoicePage" rx="2" ry="2" x="0" y="0" width="960" height="960">
+		</rect>
+	</svg>
+	<div id="_Hey_Google__Four_Seasons_Stor">
+		<span>“Hey Google, Four Seasons Store.” </span>
+	</div>
+	<svg class="Circular__Normal">
+		<pattern elementId="Circular__Normal_A2_Rectangle_39" id="Circular__Normal_A2_Rectangle_39_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="Circular__Normal_A2_Rectangle_39_pattern.png" xlink:href="Circular__Normal_A2_Rectangle_39_pattern.png"></image>
+		</pattern>
+		<rect id="Circular__Normal" rx="0" ry="0" x="0" y="0" width="369" height="151">
+		</rect>
+	</svg>
+	<div id="Learn_more">
+		<span>Learn more</span>
+	</div>
+	<svg class="N_Blog">
+		<pattern elementId="N_Blog_A2_Rectangle_41" id="N_Blog_A2_Rectangle_41_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="N_Blog_A2_Rectangle_41_pattern.png" xlink:href="N_Blog_A2_Rectangle_41_pattern.png"></image>
+		</pattern>
+		<rect id="N_Blog" rx="0" ry="0" x="0" y="0" width="1927" height="1119">
+		</rect>
+	</svg>
+	<svg class="about_background">
+		<pattern elementId="about_background_A2_Rectangle_43" id="about_background_A2_Rectangle_43_pattern" x="0" y="0" width="100%" height="100%">
+			<image x="0" y="0" width="100%" height="100%" href="about_background_A2_Rectangle_43_pattern.png" xlink:href="about_background_A2_Rectangle_43_pattern.png"></image>
+		</pattern>
+		<rect id="about_background" rx="0" ry="0" x="0" y="0" width="1920" height="1075">
+		</rect>
+	</svg>
+	<div id="About_page">
+		<div id="__A2_Text_17">
+			<span>菓</span>
+		</div>
+		<div id="__A2_Text_18">
+			<span>子</span>
+		</div>
+		<div id="__A2_Text_19">
+			<span>和</span>
+		</div>
+		<svg class="flower">
+			<pattern elementId="flower_A2_Rectangle_45" id="flower_A2_Rectangle_45_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="flower_A2_Rectangle_45_pattern.png" xlink:href="flower_A2_Rectangle_45_pattern.png"></image>
+			</pattern>
+			<rect id="flower" rx="0" ry="0" x="0" y="0" width="830" height="572">
+			</rect>
+		</svg>
+		<svg class="Circular__Normal_A2_Rectangle_46">
+			<pattern elementId="Circular__Normal_A2_Rectangle_47" id="Circular__Normal_A2_Rectangle_47_pattern" x="0" y="0" width="100%" height="100%">
+				<image x="0" y="0" width="100%" height="100%" href="Circular__Normal_A2_Rectangle_47_pattern.png" xlink:href="Circular__Normal_A2_Rectangle_47_pattern.png"></image>
+			</pattern>
+			<rect id="Circular__Normal_A2_Rectangle_46" rx="0" ry="0" x="0" y="0" width="125" height="51">
+			</rect>
+		</svg>
+		<div id="__">
+			<span>—></span>
+		</div>
+	</div>
+</div>
+<script>
+///////////////////////////////////////
+// INITIALIZATION
+///////////////////////////////////////
+
+/**
+ * Functionality for scaling, showing by media query, and navigation between multiple pages on a single page. 
+ * Code subject to change.
+ **/
+
+if (window.console==null) { window["console"] = { log : function() {} } }; // some browsers do not set
+
+var Application = function() {
+	// event constants
+	this.NAVIGATION_CHANGE = "viewChange";
+	this.VIEW_NOT_FOUND = "viewNotFound";
+	this.STATE_NOT_FOUND = "stateNotFound";
+	this.APPLICATION_COMPLETE = "applicationComplete";
+	this.SIZE_STATE_NAME = "data-is-view-scaled";
+
+	this.currentQuery = {index: 0, rule: null, mediaText: null, id: null};
+	this.inclusionQuery = "(min-width: 0px)";
+	this.exclusionQuery = "none and (min-width: 99999px)";
+	this.LastModifiedDateLabelName = "LastModifiedDateLabel";
+	this.pageRefreshedName = "showPageRefreshedNotification";
+	this.prefix = "--web-";
+	this.applicationStylesheet = null;
+	this.mediaQueryDictionary = {};
+	this.statesDictionary = {};
+	this.states = [];
+	this.views = {};
+	this.viewIds = [];
+	this.viewQueries = {};
+	this.viewScale = 1;
+	this.numberOfViews = 0;
+	this.verticalPadding = 0;
+	this.horizontalPadding = 0;
+	this.stateName = null;
+
+	// view settings
+	this.showUpdateNotification = false;
+	this.showNavigationControls = false;
+	this.scaleViewsToFit = false;
+	this.scaleToFitOnDoubleClick = false;
+	this.actualSizeOnDoubleClick = false;
+	this.scaleViewsOnResize = false;
+	this.navigationOnKeypress = false;
+	this.showViewName = false;
+	this.enableDeepLinking = true;
+	this.refreshPageForChanges = false;
+	this.showRefreshNotifications = true;
+
+	// view controls
+	this.scaleViewSlider = null;
+	this.lastModifiedLabel = null;
+	this.supportsPopState = false; // window.history.pushState!=null;
+	this.initialized = false;
+
+	// refresh properties
+	this.lastModifiedDate = null;
+	this.refreshRequest = null;
+	this.refreshDuration = 2000;
+	this.refreshInterval = null;
+	this.refreshContent = null;
+	this.refreshContentSize = null;
+	this.refreshCheckContent = false;
+	this.refreshCheckContentSize = false;
+
+	var self = this;
+
+	self.initialize = function(event) {
+		var view = self.getVisibleView();
+		self.collectViews();
+		self.collectMediaQueries();
+		self.setViewOptions(view);
+
+		
+		// sometimes the body size is 0 so we call this now and again later
+		if (self.initialized) {
+			window.addEventListener(self.NAVIGATION_CHANGE, self.viewChangeHandler);
+			window.addEventListener("keyup", self.keypressHandler);
+			window.addEventListener("keypress", self.keypressHandler);
+			window.addEventListener("resize", self.resizeHandler);
+			window.document.addEventListener("dblclick", self.doubleClickHandler);
+
+			if (self.supportsPopState) {
+				window.addEventListener('popstate', self.popStateHandler);
+			}
+			else {
+				window.addEventListener('hashchange', self.hashChangeHandler);
+			}
+
+			// we are ready to go
+			window.dispatchEvent(new Event(self.APPLICATION_COMPLETE));
+		}
+
+		if (self.initialized==false) {
+			if (self.showNavigationControls || self.singlePageApplication) {
+				self.syncronizeViewToURL();
+			}
+	
+			if (self.refreshPageForChanges) {
+				self.setupRefreshForChanges();
+			}
+	
+			self.initialized = true;
+		}
+		
+		if (self.scaleViewsToFit) {
+			self.viewScale = self.scaleViewToFit();
+			
+			if (self.viewScale<0) {
+				setTimeout(self.scaleViewToFit, 500);
+			}
+		}
+		else {
+			self.viewScale = self.getViewScaleValue(view);
+			self.updateSliderValue(self.viewScale);
+		}
+	
+		if (self.showUpdateNotification) {
+			self.showNotification();
+		}
+	
+		//"addEventListener" in window ? null : window.addEventListener = window.attachEvent;
+		//"addEventListener" in document ? null : document.addEventListener = document.attachEvent;
+	}
+
+
+	///////////////////////////////////////
+	// AUTO REFRESH 
+	///////////////////////////////////////
+
+	self.setupRefreshForChanges = function() {
+		self.refreshRequest = new XMLHttpRequest();
+
+		if (!self.refreshRequest) {
+			return false;
+		}
+
+		// get document start values immediately
+		self.requestRefreshUpdate();
+	}
+
+	/**
+	 * Attempt to check the last modified date by the headers 
+	 * or the last modified property from the byte array 
+	 * (BETA)
+	 **/
+	self.requestRefreshUpdate = function() {
+		var url = document.location.href;
+		var protocol = window.location.protocol;
+		var method;
+		
+		try {
+
+			if (self.refreshCheckContentSize) {
+				self.refreshRequest.open('HEAD', url, true);
+			}
+			else if (self.refreshCheckContent) {
+				self.refreshContent = document.documentElement.outerHTML;
+				self.refreshRequest.open('GET', url, true);
+				self.refreshRequest.responseType = "text";
+			}
+			else {
+
+				// get page last modified date for the first call to compare to later
+				if (self.lastModifiedDate==null) {
+
+					// File system does not send headers in FF so get blob if possible
+					if (protocol=="file:") {
+						self.refreshRequest.open("GET", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
+					else {
+						self.refreshRequest.open("HEAD", url, true);
+						self.refreshRequest.responseType = "blob";
+					}
+
+					self.refreshRequest.onload = self.refreshOnLoadOnceHandler;
+
+					// In some browsers (Chrome & Safari) this error occurs at send: 
+					// 
+					// Chrome - Access to XMLHttpRequest at 'file:///index.html' from origin 'null' 
+					// has been blocked by CORS policy: 
+					// Cross origin requests are only supported for protocol schemes: 
+					// http, data, chrome, chrome-extension, https.
+					// 
+					// Safari - XMLHttpRequest cannot load file:///Users/user/Public/index.html. Cross origin requests are only supported for HTTP.
+					// 
+					// Solution is to run a local server, set local permissions or test in another browser
+					self.refreshRequest.send(null);
+
+					// In MS browsers the following behavior occurs possibly due to an AJAX call to check last modified date: 
+					// 
+					// DOM7011: The code on this page disabled back and forward caching.
+
+				}
+				else {
+					self.refreshRequest = new XMLHttpRequest();
+					self.refreshRequest.onreadystatechange = self.refreshHandler;
+					self.refreshRequest.ontimeout = function() {
+						console.log("Couldn't find page to check for updates");
+					}
+					
+					var method;
+					if (protocol=="file:") {
+						method = "GET";
+					}
+					else {
+						method = "HEAD";
+					}
+
+					//refreshRequest.open('HEAD', url, true);
+					self.refreshRequest.open(method, url, true);
+					self.refreshRequest.responseType = "blob";
+					self.refreshRequest.send(null);
+				}
+			}
+		}
+		catch (error) {
+			console.log("Refresh failed for the following reason:")
+			console.log(error);
+		}
+	}
+
+	self.refreshHandler = function() {
+		var contentSize;
+
+		try {
+
+			if (self.refreshRequest.readyState === XMLHttpRequest.DONE) {
+				
+				if (self.refreshRequest.status === 2 || 
+					self.refreshRequest.status === 200) {
+					var pageChanged = false;
+
+					self.updateLastModifiedLabel();
+
+					if (self.refreshCheckContentSize) {
+						var lastModifiedHeader = self.refreshRequest.getResponseHeader("Last-Modified");
+						contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+						//lastModifiedDate = refreshRequest.getResponseHeader("Last-Modified");
+						var headers = self.refreshRequest.getAllResponseHeaders();
+						var hasContentHeader = headers.indexOf("Content-Length")!=-1;
+						
+						if (hasContentHeader) {
+							contentSize = self.refreshRequest.getResponseHeader("Content-Length");
+
+							// size has not been set yet
+							if (self.refreshContentSize==null) {
+								self.refreshContentSize = contentSize;
+								// exit and let interval call this method again
+								return;
+							}
+
+							if (contentSize!=self.refreshContentSize) {
+								pageChanged = true;
+							}
+						}
+					}
+					else if (self.refreshCheckContent) {
+
+						if (self.refreshRequest.responseText!=self.refreshContent) {
+							pageChanged = true;
+						}
+					}
+					else {
+						lastModifiedHeader = self.getLastModified(self.refreshRequest);
+
+						if (self.lastModifiedDate!=lastModifiedHeader) {
+							pageChanged = true;
+						}
+
+					}
+
+					
+					if (pageChanged) {
+						clearInterval(self.refreshInterval);
+						self.refreshUpdatedPage();
+						return;
+					}
+
+				}
+				else {
+					console.log('There was a problem with the request.');
+				}
+
+			}
+		}
+		catch( error ) {
+			//console.log('Caught Exception: ' + error);
+		}
+	}
+
+	self.refreshOnLoadOnceHandler = function(event) {
+
+		// get the last modified date
+		if (self.refreshRequest.response) {
+			self.lastModifiedDate = self.getLastModified(self.refreshRequest);
+
+			if (self.lastModifiedDate!=null) {
+
+				if (self.refreshInterval==null) {
+					self.refreshInterval = setInterval(self.requestRefreshUpdate, self.refreshDuration);
+				}
+			}
+			else {
+				console.log("Could not get last modified date from the server");
+			}
+		}
+	}
+
+	self.refreshUpdatedPage = function() {
+		if (self.showRefreshNotifications) {
+			var date = new Date().setTime((new Date().getTime()+10000));
+			document.cookie = encodeURIComponent(self.pageRefreshedName) + "=true" + "; max-age=6000;" + " path=/";
+		}
+
+		document.location.reload(true);
+	}
+
+	self.showNotification = function(duration) {
+		var notificationID = self.pageRefreshedName+"ID";
+		var notification = document.getElementById(notificationID);
+		if (duration==null) duration = 4000;
+
+		if (notification!=null) {return;}
+
+		notification = document.createElement("div");
+		notification.id = notificationID;
+		notification.textContent = "PAGE UPDATED";
+		var styleRule = ""
+		styleRule = "position: fixed; padding: 7px 16px 6px 16px; font-family: Arial, sans-serif; font-size: 10px; font-weight: bold; left: 50%;";
+		styleRule += "top: 20px; background-color: rgba(0,0,0,.5); border-radius: 12px; color:rgb(235, 235, 235); transition: all 2s linear;";
+		styleRule += "transform: translateX(-50%); letter-spacing: .5px; filter: drop-shadow(2px 2px 6px rgba(0, 0, 0, .1))";
+		notification.setAttribute("style", styleRule);
+
+		notification.className= "PageRefreshedClass";
+		
+		document.body.appendChild(notification);
+
+		setTimeout(function() {
+			notification.style.opacity = "0";
+			notification.style.filter = "drop-shadow( 0px 0px 0px rgba(0,0,0, .5))";
+			setTimeout(function() {
+				notification.parentNode.removeChild(notification);
+			}, duration)
+		}, duration);
+
+		document.cookie = encodeURIComponent(self.pageRefreshedName) + "=; max-age=1; path=/";
+	}
+
+	/**
+	 * Get the last modified date from the header 
+	 * or file object after request has been received
+	 **/
+	self.getLastModified = function(request) {
+		var date;
+
+		// file protocol - FILE object with last modified property
+		if (request.response && request.response.lastModified) {
+			date = request.response.lastModified;
+		}
+		
+		// http protocol - check headers
+		if (date==null) {
+			date = request.getResponseHeader("Last-Modified");
+		}
+
+		return date;
+	}
+
+	self.updateLastModifiedLabel = function() {
+		var labelValue = "";
+		
+		if (self.lastModifiedLabel==null) {
+			self.lastModifiedLabel = document.getElementById("LastModifiedLabel");
+		}
+
+		if (self.lastModifiedLabel) {
+			var seconds = parseInt(((new Date().getTime() - Date.parse(document.lastModified)) / 1000 / 60) * 100 + "");
+			var minutes = 0;
+			var hours = 0;
+
+			if (seconds < 60) {
+				seconds = Math.floor(seconds/10)*10;
+				labelValue = seconds + " seconds";
+			}
+			else {
+				minutes = parseInt((seconds/60) + "");
+
+				if (minutes>60) {
+					hours = parseInt((seconds/60/60) +"");
+					labelValue += hours==1 ? " hour" : " hours";
+				}
+				else {
+					labelValue = minutes+"";
+					labelValue += minutes==1 ? " minute" : " minutes";
+				}
+			}
+			
+			if (seconds<10) {
+				labelValue = "Updated now";
+			}
+			else {
+				labelValue = "Updated " + labelValue + " ago";
+			}
+
+			if (self.lastModifiedLabel.firstElementChild) {
+				self.lastModifiedLabel.firstElementChild.textContent = labelValue;
+
+			}
+			else if ("textContent" in self.lastModifiedLabel) {
+				self.lastModifiedLabel.textContent = labelValue;
+			}
+		}
+	}
+
+	self.getShortString = function(string, length) {
+		if (length==null) length = 30;
+		string = string!=null ? string.substr(0, length).replace(/\n/g, "") : "[String is null]";
+		return string;
+	}
+
+	self.getShortNumber = function(value, places) {
+		if (places==null || places<1) places = 3;
+		value = Math.round(value * Math.pow(10,places)) / Math.pow(10, places);
+		return value;
+	}
+
+	///////////////////////////////////////
+	// NAVIGATION CONTROLS
+	///////////////////////////////////////
+
+	self.updateViewLabel = function() {
+		var viewNavigationLabel = document.getElementById("ViewNavigationLabel");
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+		var viewName = view ? self.getViewPreferenceValue(view, self.prefix + "view-name") : null;
+		var viewId = view ? view.id : null;
+
+		if (viewNavigationLabel && view) {
+			if (viewName && viewName.indexOf('"')!=-1) {
+				viewName = viewName.replace(/"/g, "");
+			}
+
+			if (self.showViewName) {
+				viewNavigationLabel.textContent = viewName;
+				self.setTooltip(viewNavigationLabel, viewIndex + 1 + " of " + self.numberOfViews);
+			}
+			else {
+				viewNavigationLabel.textContent = viewIndex + 1 + " of " + self.numberOfViews;
+				self.setTooltip(viewNavigationLabel, viewName);
+			}
+
+		}
+	}
+
+	self.updateURL = function(view) {
+		view = view == null ? self.getVisibleView() : view;
+		var viewId = view ? view.id : null
+		var viewFragment = view ? "#"+ viewId : null;
+
+		if (viewId && self.enableDeepLinking) {
+
+			if (self.supportsPopState==false) {
+				self.setFragment(viewId);
+			}
+			else {
+				if (viewFragment!=window.location.hash) {
+
+					if (window.location.hash==null) {
+						window.history.replaceState({name:viewId}, null, viewFragment);
+					}
+					else {
+						window.history.pushState({name:viewId}, null, viewFragment);
+					}
+				}
+			}
+		}
+	}
+
+	self.setFragment = function(value) {
+		window.location.hash = "#" + value;
+	}
+
+	self.setTooltip = function(element, value) {
+		// setting the tooltip in edge causes a page crash on hover
+		if (/Edge/.test(navigator.userAgent)) { return; }
+
+		if ("title" in element) {
+			element.title = value;
+		}
+	}
+
+	self.getStylesheetRules = function(styleSheet) {
+		if (styleSheet) return styleSheet.cssRules || styleSheet.rules;
+
+		return document.styleSheets[0]["cssRules"] || document.styleSheets[0]["rules"];
+	}
+
+	/**
+	 * If single page application hide all of the views except first
+	 **/
+	self.hideViews = function(selectIndex) {
+		var rules = self.getStylesheetRules();
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+
+			if (rule.media!=null) {
+
+				if (queryIndex==selectIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = selectIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+				
+				queryIndex++;
+			}
+		}
+
+		self.numberOfViews = queryIndex;
+		self.updateViewLabel();
+		self.updateURL();
+
+		self.dispatchViewChange();
+
+		var view = self.getVisibleView();
+		var viewIndex = view ? self.getViewIndex(view) : -1;
+
+		return viewIndex==selectIndex ? view : null;
+	}
+
+	self.showView = function(view) {
+		var id = view ? view.id : null;
+		var query = id ? self.mediaQueryDictionary[id] : null;
+		var display = null;
+
+		if (query) {
+			self.enableMediaQuery(query);
+			if (view==null) view =self.getVisibleView();
+			self.setViewOptions(view);
+		}
+		else if (id) {
+			display = window.getComputedStyle(view).getPropertyValue("display");
+			if (display=="" ||  display=="none") {
+				view.style.display = "block";
+			}
+		}
+	}
+
+	self.setViewOptions = function(view) {
+
+		if (view) {
+			self.scaleViewsToFit = self.getViewPreferenceBoolean(view, self.prefix + "scale-to-fit");
+			self.scaleToFitOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-double-click");
+			self.actualSizeOnDoubleClick = self.getViewPreferenceBoolean(view, self.prefix + "actual-size-on-double-click");
+			self.scaleViewsOnResize = self.getViewPreferenceBoolean(view, self.prefix + "scale-on-resize");
+			self.navigationOnKeypress = self.getViewPreferenceBoolean(view, self.prefix + "navigate-on-keypress");
+			self.showViewName = self.getViewPreferenceBoolean(view, self.prefix + "show-view-name");
+			self.refreshPageForChanges = self.getViewPreferenceBoolean(view, self.prefix + "refresh-for-changes");
+			self.showNavigationControls = self.getViewPreferenceBoolean(view, self.prefix + "show-navigation-controls");
+			self.scaleViewSlider = self.getViewPreferenceBoolean(view, self.prefix + "show-scale-controls");
+			self.enableDeepLinking = self.getViewPreferenceBoolean(view, self.prefix + "enable-deep-linking");
+			self.singlePageApplication = self.getViewPreferenceBoolean(view, self.prefix + "application");
+			self.showUpdateNotification = document.cookie!="" ? document.cookie.indexOf(self.pageRefreshedName)!=-1 : false;
+
+			if (self.scaleViewsToFit) {
+				var newScaleValue = self.scaleViewToFit();
+				
+				if (newScaleValue<0) {
+					setTimeout(self.scaleViewToFit, 500);
+				}
+			}
+			else {
+				self.viewScale = self.getViewScaleValue(view);
+				self.updateSliderValue(self.viewScale);
+			}
+		}
+	}
+
+	self.previousView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView()
+		var index = view ? self.getViewIndex(view) : -1;
+		var prevQueryIndex = index!=-1 ? index-1 : self.currentQuery.index-1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (prevQueryIndex<0) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==prevQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = prevQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.nextView = function(event) {
+		var rules = self.getStylesheetRules();
+		var view = self.getVisibleView();
+		var index = view ? self.getViewIndex(view) : -1;
+		var nextQueryIndex = index!=-1 ? index+1 : self.currentQuery.index+1;
+		var queryIndex = 0;
+		var numberOfRules = rules!=null ? rules.length : 0;
+		var numberOfMediaQueries = self.getNumberOfMediaRules();
+
+		if (event) {
+			event.stopImmediatePropagation();
+		}
+
+		if (nextQueryIndex>=numberOfMediaQueries) {
+			return;
+		}
+
+		// loop through rules and hide media queries except selected
+		for (var i=0;i<numberOfRules;i++) {
+			var rule = rules[i];
+			
+			if (rule.media!=null) {
+
+				if (queryIndex==nextQueryIndex) {
+					self.currentQuery.mediaText = rule.conditionText;
+					self.currentQuery.index = nextQueryIndex;
+					self.currentQuery.rule = rule;
+					self.enableMediaQuery(rule);
+					self.updateViewLabel();
+					self.updateURL();
+					self.dispatchViewChange();
+				}
+				else {
+					self.disableMediaQuery(rule);
+				}
+
+				queryIndex++;
+			}
+		}
+	}
+
+	self.enableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.inclusionQuery;
+		}
+		catch(error) {
+			//self.log(error);
+			rule.conditionText = self.inclusionQuery;
+		}
+	}
+
+	self.disableMediaQuery = function(rule) {
+
+		try {
+			rule.media.mediaText = self.exclusionQuery;
+		}
+		catch(error) {
+			rule.conditionText = self.exclusionQuery;
+		}
+	}
+
+	self.dispatchViewChange = function() {
+		try {
+			var event = new Event(self.NAVIGATION_CHANGE);
+			window.dispatchEvent(event);
+		}
+		catch (error) {
+			// In IE 11: Object doesn't support this action
+		}
+	}
+
+	self.getNumberOfMediaRules = function() {
+		var rules = self.getStylesheetRules();
+		var numberOfQueries = 0;
+
+		for (var i=0;i<rules.length;i++) {
+			if (rules[i].media!=null) { numberOfQueries++; }
+		}
+		return numberOfQueries;
+	}
+
+	/////////////////////////////////////////
+	// VIEW SCALE 
+	/////////////////////////////////////////
+
+	self.sliderChangeHandler = function(event) {
+		var value = event.currentTarget.value/100;
+		var view = self.getVisibleView();
+		self.setViewScaleValue(view, value, false, true);
+	}
+
+	self.updateSliderValue = function(scale) {
+		var slider = document.getElementById("ViewZoomSliderInput");
+		var tooltip = parseInt(scale * 100 + "") + "%";
+		var inputType;
+		
+		if (slider) {
+			slider["value"] = scale * 100;
+			inputType = slider.getAttributeNS(null, "type");
+
+			if (inputType!="range") {
+				// input range is not supported
+				slider.style.display = "none";
+			}
+
+			self.setTooltip(slider, tooltip);
+		}
+	}
+
+	self.viewChangeHandler = function(event) {
+		var view = self.getVisibleView();
+		var matrix = view ? getComputedStyle(view).transform : null;
+		
+		if (matrix) {
+			self.viewScale = self.getViewScaleValue(view);
+			
+			var scaleNeededToFit = self.getViewFitToViewportScale(view);
+			var isViewLargerThanViewport = scaleNeededToFit<1;
+			
+			// scale large view to fit if scale to fit is enabled
+			//if (isViewLargerThanViewport && scaleViewsToFit) {
+			if (self.scaleViewsToFit) {
+				//setViewScaleValue(view, scale, true);
+				self.scaleViewToFit();
+			}
+			else {
+				self.updateSliderValue(self.viewScale);
+			}
+		}
+	}
+
+	self.getViewScaleValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var scaleX = parseFloat(matrixArray[0]);
+			var scaleY = parseFloat(matrixArray[3]);
+			var scale = Math.min(scaleX, scaleY);
+		}
+
+		return scale;
+	}
+
+	self.getViewTranslateYValue = function(view) {
+		var matrix = getComputedStyle(view).transform;
+
+		if (matrix) {
+			var matrixArray = matrix.replace("matrix(", "").split(",");
+			var translateY = parseFloat(matrixArray[5]);
+		}
+
+		return translateY;
+	}
+
+	self.getViewTop = function(view) {
+		var top = getComputedStyle(view).top;
+
+		return top;
+	}
+
+	self.setViewScaleValue = function(view, desiredScale, scaleViewToFit, centerVertically) {
+		var transform = getComputedStyle(view).transform;
+		var scaleNeededToFit = self.getViewFitToViewportScale(view);
+		var isViewLargerThanViewport = scaleNeededToFit<1;
+		var shrunkToFit = false;
+		
+		if (scaleViewToFit && isViewLargerThanViewport) {
+			desiredScale = scaleNeededToFit;
+			shrunkToFit = true;
+		}
+
+		if (isNaN(desiredScale)) {
+			desiredScale = 1;
+		}
+
+		desiredScale = self.getShortNumber(desiredScale);
+
+		self.updateSliderValue(desiredScale);
+
+		transform = self.getCSSPropertyValueForElement(view.id, "transform");
+
+		if (transform!=null) {
+			var horizontalCenter = transform.indexOf("translateX")!=-1;
+			var verticalCenter = transform.indexOf("translateY")!=-1;
+			var horizontalAndVerticalCenter = (horizontalCenter && verticalCenter) || (transform.indexOf("translate(")!=-1);
+			var topPosition = null;
+			var leftPosition = null;
+			var translateY = null;
+			var translateX = "-50%";
+			var centerForNavigation = self.showNavigationControls!=null && self.scaleViewsToFit;
+
+			//if (horizontalAndVerticalCenter || horizontalCenter || verticalCenter) {
+			if (horizontalAndVerticalCenter || centerForNavigation) {
+				translateX = "-50%";
+
+				// if view is smaller than viewport or center vertically is true then center vertically
+				if (shrunkToFit || centerVertically) {
+					translateX = "-50%";
+					translateY = "-50%";
+					topPosition = "50%";
+					leftPosition = "50%";
+				}
+				else {
+					translateX = "0";
+					translateY = "0";
+					topPosition = "0";
+					leftPosition = "0";
+				}
+				
+				view.style.transform = "translateX(" + translateX + ") translateY(" + translateY + ") scale(" + desiredScale + ")";
+
+				if (view.style.top != topPosition) {
+					view.style.top = topPosition + "";
+				}
+
+				if (view.style.left != leftPosition) {
+					view.style.left = leftPosition + "";
+				}
+				//view.style.transform = "translate(-50%,-50%) scale(" + desiredScale + ")";
+			}
+			else if (horizontalCenter) {
+				translateY = shrunkToFit ? "-50%" : "0%";
+				view.style.transform = "translateY(" + translateY + ") translateX(-50%) scale(" + desiredScale + ")";
+
+				// this next function needs work
+				//topPosition = getVerticallyCenteredTopValue(view);
+
+				if (shrunkToFit) {
+					view.style.top = "50%";
+				}
+				else {
+					view.style.top = "0";
+				}
+			}
+			else if (verticalCenter) {
+				view.style.transform = "translateY(-50%) scale(" + desiredScale + ")";
+			}
+			else {
+				view.style.transform = "scale(" + desiredScale + ")";
+			}
+
+			if (desiredScale!=1) {
+				// attempt to anchor to the top as scaled up
+				//view.style.top = null;
+			}
+		}
+
+		if (shrunkToFit) {
+			return scaleNeededToFit;
+		}
+
+		return desiredScale;
+	}
+
+	self.getVerticallyCenteredTopValue = function(view) {
+		var originalTransform = view.style.transform;
+		var originalTop = view.style.top;
+		var transform = null;
+
+		view.style.transform = "translateY(-50%)" + originalTransform;
+		view.style.top = "50%";
+		var translateY = self.getViewTranslateYValue(view);
+		view.style.transform = originalTransform;
+		view.style.top = originalTop;
+		return translateY;
+	}
+
+	self.getViewFitToViewportScale = function(view) {
+		var availableWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+		var availableHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+		var elementWidth = parseFloat(getComputedStyle(view, "style").width);
+		var elementHeight = parseFloat(getComputedStyle(view, "style").height);
+		var newScale = 1;
+
+		availableWidth -= self.horizontalPadding;
+		availableHeight -= self.verticalPadding;
+
+		if (elementWidth > availableWidth || elementHeight > availableHeight) {
+			newScale = Math.min(availableHeight/elementHeight, availableWidth/elementWidth);
+		}
+		
+		return newScale;
+	}
+
+	self.keypressHandler = function(event) {
+		var rightKey = 39;
+		var leftKey = 37;
+		
+		// listen for both events 
+		if (event.type=="keypress") {
+			window.removeEventListener("keyup", self.keypressHandler);
+		}
+		else {
+			window.removeEventListener("keypress", self.keypressHandler);
+		}
+		
+		if (self.showNavigationControls) {
+			if (self.navigationOnKeypress) {
+				if (event.keyCode==rightKey) {
+					self.nextView();
+				}
+				if (event.keyCode==leftKey) {
+					self.previousView();
+				}
+			}
+		}
+		else if (self.navigationOnKeypress) {
+			if (event.keyCode==rightKey) {
+				self.nextView();
+			}
+			if (event.keyCode==leftKey) {
+				self.previousView();
+			}
+		}
+	}
+
+	///////////////////////////////////
+	// GENERAL FUNCTIONS
+	///////////////////////////////////
+
+	self.getViewById = function(id) {
+		id = id ? id.replace("#", "") : "";
+		var view = self.viewIds.indexOf(id)!=-1 && document.getElementById(id);
+		return view;
+	}
+
+	self.getViewIds = function() {
+		var viewIds = self.getViewPreferenceValue(document.body, self.prefix + "view-ids");
+		var viewId = null;
+
+		viewIds = viewIds!=null && viewIds!="" ? viewIds.split(",") : [];
+
+		if (viewIds.length==0) {
+			viewId = self.getViewPreferenceValue(document.body, self.prefix + "view-id");
+			viewIds = viewId ? [viewId] : [];
+		}
+
+		return viewIds;
+	}
+
+	self.getApplicationStylesheet = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		self.applicationStylesheet = document.getElementById("applicationStylesheet");
+		return self.applicationStylesheet.sheet;
+	}
+
+	self.getViewQueries = function() {
+		var stylesheetId = self.getViewPreferenceValue(document.body, self.prefix + "stylesheet-id");
+		var viewIds = self.getViewIds();
+	}
+
+	self.getVisibleView = function() {
+		var viewIds = self.getViewIds();
+
+		try {
+			//var rules = self.getStylesheetRules();
+			//var styleSheet = self.getApplicationStylesheet();
+
+			/*
+			viewIds = rules[1].selectorText.split(/\,?\s+?#/);
+			if (viewIds[0]=="*") {
+				viewIds = rules[2].selectorText.split(/\,?\s+?#/);
+			}
+			*/
+		}
+		catch(error) {
+			console.log("For the page functionality to work the first two style declarations must be the generated ones.");
+			return;
+		}
+		
+		for (var i=0;i<viewIds.length;i++) {
+			var viewId = viewIds[i].replace(/[\#?\.?](.*)/, "$" + "1");
+			var view = document.getElementById(viewId);
+			var postName = "_Class";
+
+			if (view==null && viewId && viewId.lastIndexOf(postName)!=-1) {
+				view = document.getElementById(viewId.replace(postName, ""));
+			}
+			
+			if (view) {
+				var display = window.getComputedStyle(view).display;
+		
+				if (display=="block") {
+					return view;
+				}
+			}
+		}
+
+		return null;
+	}
+
+	self.getViewIndex = function(view) {
+		var viewIds = self.getViewIds();
+		var id = view ? view.id : null;
+		var index = id && viewIds ? viewIds.indexOf(id) : -1;
+
+		return index;
+	}
+
+	self.syncronizeViewToURL = function() {
+		var fragment = window.location.hash;
+		var view = self.getViewById(fragment);
+		var index = view ? self.getViewIndex(view) : 0;
+		if (index==-1) index = 0;
+		var currentView = self.hideViews(index);
+
+		if (self.supportsPopState && currentView) {
+
+			if (fragment==null) {
+				window.history.replaceState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+			else {
+				window.history.pushState({name:currentView.id}, null, "#"+ currentView.id);
+			}
+		}
+		return view;
+	}
+
+	self.getViewPreferenceBoolean = function(view, property) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+		var type = typeof value;
+		
+		if (value=="true" || (type=="string" && value.indexOf("true")!=-1)) {
+			return true;
+		}
+
+		return false;
+	}
+
+	self.getViewPreferenceValue = function(view, property) {
+		var value = window.getComputedStyle(view).getPropertyValue(property);
+		if (value===undefined) {
+			return null;
+		}
+		
+		value = value.replace(/^[\s"]*(.*?)[\s"]*$/, "$1")
+		return value;
+	}
+
+	self.getCSSPropertyValueForElement = function(id, property) {
+		var styleSheets = document.styleSheets;
+		var numOfStylesheets = styleSheets.length;
+		var values = [];
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		var value;
+
+		for(var i=0;i<numOfStylesheets;i++) {
+			var styleSheet = styleSheets[i];
+			var cssRules = self.getStylesheetRules(styleSheet);
+			var numOfCSSRules = cssRules.length;
+			var cssRule;
+			
+			for (var j=0;j<numOfCSSRules;j++) {
+				cssRule = cssRules[j];
+				
+				if (cssRule.media) {
+					var mediaRules = cssRule.cssRules;
+					var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+					
+					for(var k=0;k<numOfMediaRules;k++) {
+						var mediaRule = mediaRules[k];
+						
+						if (mediaRule.selectorText==selectorIDText || mediaRule.selectorText==selectorClassText) {
+							
+							if (mediaRule.style && property in mediaRule.style) {
+								value = mediaRule.style.getPropertyValue(property);
+								//console.log(property+":" + value);
+								values.push(value);
+							}
+						}
+					}
+				}
+				else {
+
+					if (cssRule.selectorText==selectorIDText || cssRule.selectorText==selectorClassText) {
+						if (cssRule.style && property in cssRule.style) {
+							value = cssRule.style.getPropertyValue(property);
+							//console.log(property+":" + value);
+							values.push(value);
+						}
+					}
+				}
+			}
+		}
+		
+		return values.pop();
+	}
+
+	self.collectViews = function() {
+		var viewIds = self.getViewIds();
+
+		for (let index = 0; index < viewIds.length; index++) {
+			const id = viewIds[index];
+			const view = self.getViewById(id);
+			self.views[id] = view;
+		}
+		
+		self.viewIds = viewIds;
+	}
+
+	self.collectMediaQueries = function() {
+		var viewIds = self.getViewIds();
+		var styleSheet = self.getApplicationStylesheet();
+		var cssRules = self.getStylesheetRules(styleSheet);
+		var numOfCSSRules = cssRules.length;
+		var cssRule;
+		var id = null;
+		var selectorIDText = "#" + id;
+		var selectorClassText = "." + id + "_Class";
+		
+		for (var j=0;j<numOfCSSRules;j++) {
+			cssRule = cssRules[j];
+			
+			if (cssRule.media) {
+				var mediaRules = cssRule.cssRules;
+				var numOfMediaRules = mediaRules ? mediaRules.length : 0;
+				
+				for(var k=0;k<numOfMediaRules;k++) {
+					var mediaRule = mediaRules[k];
+					var mediaId = null;
+
+					if (k<2) {
+						mediaId = mediaRule.selectorText.replace(/[#|\s|*]?/g, "");
+						
+						if (viewIds.indexOf(mediaId)!=-1) {
+							self.mediaQueryDictionary[mediaId] = cssRule;
+							self.addState(mediaId, cssRule);
+							break;
+						}
+					}
+					else {
+						break;
+					}
+				}
+			}
+			else {
+
+				if (cssRule.selectorText==selectorIDText || cssRule.selectorText==selectorClassText) {
+					continue;
+				}
+			}
+		}
+	}
+
+	self.addState = function(name, cssRule) {
+		var state = {name:name, rule:cssRule};
+		self.states.push(name);
+		self.statesDictionary[name] = state;
+	}
+
+	self.hasState = function(name) {
+		
+		if (self.states.indexOf(name)!=-1) {
+			return true;
+		}
+		return false;
+	}
+
+	self.goToState = function(name, maintainPreviousState) {
+		var state = self.statesDictionary[name];
+
+		if (state) {
+			if (maintainPreviousState==false || maintainPreviousState==null) {
+				self.hideViews();
+			}
+			self.enableMediaQuery(state.rule);
+			self.updateViewLabel();
+			self.updateURL();
+		}
+		else {
+			var event = new Event(self.STATE_NOT_FOUND);
+			self.stateName = name;
+			window.dispatchEvent(event);
+		}
+	}
+
+	self.resizeHandler = function(event) {
+		if (self.scaleViewsOnResize) {
+			self.scaleViewToFit();
+		}
+	}
+
+	self.preventDoubleClick = function(event) {
+		event.stopImmediatePropagation();
+	}
+
+	self.hashChangeHandler = function(event) {
+		var fragment = window.location.hash ? window.location.hash.replace("#", "") : "";
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.popStateHandler = function(event) {
+		var state = event.state;
+		var fragment = state ? state.name : window.location.hash;
+		var view = self.getViewById(fragment);
+
+		if (view) {
+			self.hideViews();
+			self.showView(view);
+			self.updateViewLabel();
+		}
+		else {
+			window.dispatchEvent(new Event(self.VIEW_NOT_FOUND));
+		}
+	}
+
+	self.doubleClickHandler = function(event) {
+		var view = self.getVisibleView();
+		var scaleValue = self.getViewScaleValue(view);
+		var scaleNeededToFit = self.getViewFitToViewportScale(view);
+
+		// Three scenarios
+		// - scale to fit on double click
+		// - set scale to actual size on double click
+		// - switch between scale to fit and actual page size
+
+		// if scale and actual size enabled then switch between
+		if (self.scaleToFitOnDoubleClick && self.actualSizeOnDoubleClick) {
+			var isViewScaled = view.getAttributeNS(null, self.SIZE_STATE_NAME);
+			var isScaled = false;
+			
+			// if scale is not 1 then view needs scaling
+			if (scaleNeededToFit!=1) {
+
+				// if current scale is at 1 it is at actual size
+				// scale it to fit
+				if (scaleValue==1) {
+					self.scaleViewToFit();
+					isScaled = true;
+				}
+				else {
+					// scale is not at 1 so switch to actual size
+					self.scaleViewToActualSize();
+					isScaled = false;
+				}
+			}
+			else {
+				// view is smaller than viewport 
+				// so scale to fit() is scale actual size
+				// actual size and scaled size are the same
+				// but call scale to fit to retain centering
+				self.scaleViewToFit();
+				isScaled = false;
+			}
+			
+			view.setAttributeNS(null, SIZE_STATE_NAME, isScaled+"");
+			isViewScaled = view.getAttributeNS(null, SIZE_STATE_NAME);
+		}
+		else if (self.scaleToFitOnDoubleClick) {
+			self.scaleViewToFit();
+		}
+		else if (self.actualSizeOnDoubleClick) {
+			self.scaleViewToActualSize();
+		}
+
+	}
+
+	self.scaleViewToFit = function() {
+		var view = self.getVisibleView();
+		return self.setViewScaleValue(view, 1, true, true);
+	}
+
+	self.scaleViewToActualSize = function() {
+		var view = self.getVisibleView();
+		self.setViewScaleValue(view, 1);
+	}
+
+	self.onloadHandler = function(event) {
+		self.initialize();
+	}
+
+	self.getStackArray = function(error) {
+		var value = "";
+		
+		if (error==null) {
+		  try {
+			 error = new Error("Stack");
+		  }
+		  catch (e) {
+			 
+		  }
+		}
+		
+		if ("stack" in error) {
+		  value = error.stack;
+		  var methods = value.match(/\\n/gm);
+	 
+		  var newArray = methods ? methods.map(function (value, index, array) {
+			 value = value.replace("at ","");
+			 return value;
+		  }) : null;
+	 
+		  if (newArray && newArray[0]=="getStackTrace") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getStackArray") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="getFunctionName") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="object") {
+			 newArray.shift();
+		  }
+		  if (newArray && newArray[0]=="log") {
+			 newArray.shift();
+		  }
+	 
+			return newArray;
+		}
+		
+		return null;
+	}
+
+	this.log = function(value) {
+		console.log.apply(this, [value]);
+	}
+	
+	// initialize on load
+	// sometimes the body size is 0 so we call this now and again later
+	window.addEventListener("load", self.onloadHandler);
+	window.document.addEventListener("DOMContentLoaded", self.onloadHandler);
+}
+
+var application = new Application();
+window.application = application;
+</script>
+</body>
+</html>
